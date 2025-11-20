@@ -126,7 +126,7 @@ function ExampleCard({
 
   return (
     <a
-      href={`https://github.com/${repo.name}/blob/-/AGENTS.md`}
+      href={`https://github.com/${repo.name}/blob/HEAD/AGENTS.md`}
       target="_blank"
       rel="noopener noreferrer"
       className={`lg:aspect-video bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm flex flex-col justify-between p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors ${
